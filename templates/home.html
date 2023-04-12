@@ -1,0 +1,25 @@
+{% extends 'flatpages/default.html' %}
+{% load static %}
+
+{% block idpage %}home{% endblock %}
+
+{% block title %}
+Главная
+{% endblock %}
+
+{% block header %}
+Добро пожаловать на сайт!
+{% endblock %}
+
+{% block count %}
+<br>
+{% endblock %}
+
+{% block image %}
+{% static 'assets/main.jpg' %}
+{% endblock %}
+
+{% block content %}
+<hr>
+<p class="fs-5 mb-4">На нашем сайте вы всегда найдете актуальные новости мира</p>
+{% endblock %}
